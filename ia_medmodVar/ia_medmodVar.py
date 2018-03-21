@@ -3,7 +3,6 @@ from math import sqrt
 moda = []
 lista = []
 mediana = []
-lista = []
 
 
 with open("numeros.txt","r") as f:
@@ -45,8 +44,8 @@ mediana.sort()
 print(mediana)
 
 if len(mediana)%2==0:
-    tam = len(mediana)
-    m = (mediana[tam/2-1]+mediana[n/2])/2
+    tam = int(len(mediana)/2)
+    m = (int(mediana[tam-1])+int(mediana[tam]))/2
 else:
     m = mediana[int(len(mediana)/2)]
 print("mediana:",m)

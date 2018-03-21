@@ -34,4 +34,3 @@ print ('Interseccion:',despejeb)
 
 pred=despejeb+(pendiente*35)
 print ('Prediccion para casa de 35 metros:',pred)
-pause = raw_input('Pulse ENTER para continual')
